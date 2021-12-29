@@ -76,13 +76,13 @@ parser.add_argument('--graph', action='store_true', help='either add graph atten
 parser.add_argument('--wpa', action='store_true', help='either add weighted part attention')
 
 parser.add_argument('--aa', default=0.5, type=float,
-                    metavar='aa', help='weight for ')
+                    metavar='aa', help='lamuda3')
 parser.add_argument('--bb', default=0.01, type=float,
-                    metavar='bb', help='weight for ')
+                    metavar='bb', help='lamuda4')
 parser.add_argument('--cc', default=0.4, type=float,
-                    metavar='cc', help='weight for ')
+                    metavar='cc', help='lamuda2')
 parser.add_argument('--dd', default=1.0, type=float,
-                    metavar='dd', help='weight for ')
+                    metavar='dd', help='lamuda1')
 args = parser.parse_args()
 os.environ['CUDA_VISIBLE_DEVICES'] = args.gpu
 
