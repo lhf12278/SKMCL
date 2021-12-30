@@ -5,6 +5,8 @@
 
 - Usage of this code is free for research purposes only. 
 
+- Our experimental environment: python3.8.10,torch1.9.0
+
 - Training  
 (1)Preparing the dataset(SYSU-MM01[3] ([paper](https://openaccess.thecvf.com/content_ICCV_2017/papers/Wu_RGB-Infrared_Cross-Modality_Person_ICCV_2017_paper.pdf)) and RegDB[4] ([paper](https://pdfs.semanticscholar.org/6c51/8aabdbba2c073eab6a3bb4120023851e524c.pdf))). And follow AGW[1] to do data preprocessing.  
 (2)To begin training.(See the code and our paper for more details)   
