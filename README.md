@@ -21,8 +21,6 @@ python train.py
 python test.py
 ```
 
-- If you have any questions in use, please contact me. [xukaixiong@stu.kust.edu.cn](xukaixiong@stu.kust.edu.cn) . 
-
 - Reference
 ```
 [1]Ye M, Shen J, Lin G, et al. Deep learning for person re-identification: A survey and outlook[J]. IEEE Transactions on Pattern Analysis and Machine Intelligence, 2021.  
